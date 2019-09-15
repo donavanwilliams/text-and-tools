@@ -1,6 +1,6 @@
-###########################################################
-##  Brian Williams Standard Aliases - Updated 2019-09-14 ##
-###########################################################
+#######################
+##  Standard Aliases ##
+#######################
 
 # Uses the pwgen command to generate password
 # Install with: sudo apt-get install pwgen

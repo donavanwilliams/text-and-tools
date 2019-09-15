@@ -30,3 +30,4 @@ alias bdw-version-server='cat /etc/*release'
 
 # WHICH COMMANDS
 alias bdw-which-webserver='~/scripts/which_webserver.sh'
+alias bdw-which-test='echo yes'

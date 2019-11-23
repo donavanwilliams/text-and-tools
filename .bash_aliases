@@ -18,6 +18,7 @@ alias bdw-restart-nginx='sudo service nginx restart'
 alias bdw-restart-apache='sudo service apache2 restart'
 alias bdw-restart-shell='source ~/.bashrc'
 alias bdw-restart-webserver='sudo service `bdw-which-webserver` restart'
+alias bdw-rebuild-aliases='wget https://raw.githubusercontent.com/donavanwilliams/text-and-tools/master/.bash_aliases -O ~/.bash_aliases && bdw-restart-shell'
 
 # VERSION COMMANDS
 alias bdw-version-mysql='mysql -V'

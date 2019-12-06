@@ -43,6 +43,7 @@ alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
+alias lsa='ls -al'
 
 ## pass options to free ##
 alias meminfo='free -m -l -t'

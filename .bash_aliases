@@ -11,7 +11,7 @@ alias bdw-gen-pass-strong='pwgen 16 1 -n 3 -y 2 -s'
 alias bdw-update-server='sudo apt-get update -y && sudo apt-get upgrade -y'
 alias bdw-update-server-full='sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y'
 alias bdw-update-list='sudo apt-get update -y && sudo apt list --upgradable'
-alias bdw-ip-address='dig +short myip.opendns.com @resolver1.opendns.com'
+alias bdw-show-public_ip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias bdw-show-services='sudo service --status-all'
 
 # RESTART COMMANDS

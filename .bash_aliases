@@ -13,6 +13,7 @@ alias bdw-update-server-full='sudo apt-get update -y && sudo apt-get upgrade -y 
 alias bdw-update-list='sudo apt-get update -y && sudo apt list --upgradable'
 alias bdw-show-public_ip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias bdw-show-services='sudo service --status-all'
+alias bdw-show-wsl-ip="ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'"
 
 # RESTART COMMANDS
 alias bdw-restart-server='sudo shutdown -r now'

@@ -18,6 +18,7 @@ alias bdw-show-wsl-ip="ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'"
 alias bdw-show-ip-wsl="ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'"
 alias bdw-check-temp='vcgencmd measure_temp'
 alias bdw-check-diskspace='sudo du -shx * | sort -rh | head -10'
+alias bdw-check-connection='wget https://www.donavanwilliams.com/ -O ~/indexZAZ.html && rm ~/indexZAZ.html'
 
 # RESTART COMMANDS
 alias bdw-restart-server='sudo shutdown -r now'

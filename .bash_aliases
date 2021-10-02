@@ -66,3 +66,6 @@ alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
 
 ## Get server cpu info ##
 alias cpuinfo='lscpu'
+
+## Tools and Application Specific Commands ##
+alias backstop='docker run --rm -v $(pwd):/src backstopjs/backstopjs "$@"'
